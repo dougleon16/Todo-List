@@ -141,3 +141,33 @@ select {
     background: white;
     color: #e2a661;
 }
+
+
+/* media queries */
+
+@media only screen and (max-width: 420px) {
+    body {
+        width: 90%;
+        margin: 0 auto;
+    }
+    header {
+        font-size: 1.2rem;
+    }
+    form input {
+        width: 50%;
+        justify-content: center;
+    }
+    .todo-input {
+        font-size: 2rem;
+    }
+    .todo-list {
+        width: 90%;
+    }
+    .todo-container {
+        justify-content: space-evenly;
+    }
+    .select {
+        width: 3rem;
+        align-items: center;
+    }
+}
